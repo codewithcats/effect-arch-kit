@@ -9,6 +9,5 @@
   "homepage": "https://github.com/codewithcats/effect-arch-kit",
   "repository": "https://github.com/codewithcats/effect-arch-kit",
   "license": "MIT",
-  "keywords": ["effect", "eslint", "dependency-cruiser", "architecture", "enforcement", "hook"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["effect", "eslint", "dependency-cruiser", "architecture", "enforcement", "hook"]
 }
