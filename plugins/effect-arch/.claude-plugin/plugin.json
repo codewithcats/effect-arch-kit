@@ -1,0 +1,16 @@
+{
+  "name": "effect-arch",
+  "version": "0.1.0",
+  "description": "Guidance skills for a layered Effect-TS architecture in React apps: an architecture hub, data-fetching patterns, and testing patterns, plus a semantic architecture-review command. Pure guidance — installs anywhere and touches nothing in your repo.",
+  "author": {
+    "name": "codewithcats",
+    "url": "https://github.com/codewithcats"
+  },
+  "homepage": "https://github.com/codewithcats/effect-arch-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithcats/effect-arch-kit.git"
+  },
+  "license": "MIT",
+  "keywords": ["effect", "effect-ts", "react", "architecture", "typescript", "layered-architecture", "skills"]
+}

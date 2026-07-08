@@ -1,0 +1,25 @@
+{
+  "name": "effect-arch-kit",
+  "owner": {
+    "name": "codewithcats",
+    "url": "https://github.com/codewithcats"
+  },
+  "metadata": {
+    "description": "Effect-TS architecture skills and mechanical enforcement for React + Effect apps.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "effect-arch",
+      "source": "./plugins/effect-arch",
+      "description": "Guidance skills for a layered Effect-TS architecture in React apps: architecture hub, data fetching, and testing, plus a semantic architecture-review command. Installs anywhere; touches nothing.",
+      "keywords": ["effect", "effect-ts", "react", "architecture", "typescript", "skills"]
+    },
+    {
+      "name": "effect-arch-enforcement",
+      "source": "./plugins/effect-arch-enforcement",
+      "description": "Optional mechanical enforcement for the effect-arch rules: an edit-time lint hook plus a repo setup/doctor command that wires eslint-plugin-effect-arch and dependency-cruiser into a target repo.",
+      "keywords": ["effect", "eslint", "dependency-cruiser", "architecture", "enforcement"]
+    }
+  ]
+}
