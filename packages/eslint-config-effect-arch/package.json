@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-effect-arch",
+  "version": "0.1.0",
+  "description": "Flat-config factory that applies the effect-arch ESLint rules, scoped by layer role, with a layout-driven runtime escape hatch. Ships an `init` codemod to wire a repo.",
+  "license": "MIT",
+  "author": "codewithcats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithcats/effect-arch-kit.git",
+    "directory": "packages/eslint-config-effect-arch"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "effect-arch-init": "bin/init.mjs"
+  },
+  "files": ["index.js", "bin/", "README.md"],
+  "dependencies": {
+    "eslint-plugin-effect-arch": "0.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "keywords": ["eslint", "eslintconfig", "effect", "effect-ts", "architecture"]
+}

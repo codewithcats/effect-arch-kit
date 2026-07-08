@@ -13,9 +13,12 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "node --test packages/**/test/*.mjs",
+    "test": "node --test \"packages/**/*.test.mjs\"",
     "check:skill-rule-ids": "node scripts/check-skill-rule-ids.mjs",
     "check:residue": "node scripts/check-residue.mjs",
     "verify": "npm run check:residue && npm run check:skill-rule-ids && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
   }
 }

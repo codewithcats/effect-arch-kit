@@ -7,10 +7,7 @@
     "url": "https://github.com/codewithcats"
   },
   "homepage": "https://github.com/codewithcats/effect-arch-kit",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codewithcats/effect-arch-kit.git"
-  },
+  "repository": "https://github.com/codewithcats/effect-arch-kit",
   "license": "MIT",
   "keywords": ["effect", "effect-ts", "react", "architecture", "typescript", "layered-architecture", "skills"]
 }

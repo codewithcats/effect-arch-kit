@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-effect-arch",
+  "version": "0.1.0",
+  "description": "ESLint rules for a layered Effect-TS architecture: no bare I/O, no throw in core, one ManagedRuntime, no runSync in components, deterministic test time.",
+  "license": "MIT",
+  "author": "codewithcats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithcats/effect-arch-kit.git",
+    "directory": "packages/eslint-plugin-effect-arch"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./rules-catalog": "./rules-catalog.js"
+  },
+  "files": ["index.js", "rules-catalog.js", "README.md"],
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "keywords": ["eslint", "eslintplugin", "effect", "effect-ts", "architecture"]
+}

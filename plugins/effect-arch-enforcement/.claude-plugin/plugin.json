@@ -1,0 +1,14 @@
+{
+  "name": "effect-arch-enforcement",
+  "version": "0.1.0",
+  "description": "Optional mechanical enforcement for the effect-arch architecture rules. Adds an edit-time lint hook (report-only, opt-in per repo) and a setup/doctor command that wires eslint-plugin-effect-arch and dependency-cruiser-effect-arch into a target repo. Install only where you want enforcement.",
+  "author": {
+    "name": "codewithcats",
+    "url": "https://github.com/codewithcats"
+  },
+  "homepage": "https://github.com/codewithcats/effect-arch-kit",
+  "repository": "https://github.com/codewithcats/effect-arch-kit",
+  "license": "MIT",
+  "keywords": ["effect", "eslint", "dependency-cruiser", "architecture", "enforcement", "hook"],
+  "hooks": "./hooks/hooks.json"
+}
